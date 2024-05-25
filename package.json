@@ -1,0 +1,24 @@
+{
+  "name": "sample",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/a.ts"
+  },
+  "config": {
+    "port": 8000,
+    "main": [
+      {
+        "entry": "./src/a.ts"
+      },
+      {
+        "entry": "./src/b.ts"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "20.12.12",
+    "tsx": "4.11.0",
+    "typescript": "5.4.5"
+  }
+}
